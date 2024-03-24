@@ -1,6 +1,7 @@
 
 
 ********AlGORITHM*********
+//Algorithm
 
 STEP 1 : START
 STEP 2 : READ N
