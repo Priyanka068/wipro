@@ -1,0 +1,33 @@
+
+
+********AlGORITHM*********
+
+STEP 1 : START
+STEP 2 : READ N
+STEP 3 : SET OUTPUT equal to zero
+STEP 4 : FOR EACH ELEMENT
+STEP 5 : IF(N%2==0) THEN
+			OUTPUT = FINDSQUARE(N*N)
+			PRINT OUTPUT
+		ELSE
+			OUTPUT =FINDCUBE(N*N*N)
+			PRINT OUTPUT
+		END IF
+STEP 6 : INCREMENT I
+STEP 7 : REPEAT STEP 4,5,AND 6
+STEP 8 : ENDFOR
+STEP 9 : STOP
+
+********PSEUDOCODE*********
+
+STEP 1 : START
+STEP 2 : READ input from user as N
+STEP 3 : INITIALISE output = 0
+STEP 4 : VERIFY IF N exactly divisible by 2
+STEP 5 : IF TRUE then output = N*N
+STEP 6 : ELSE output = N*N*N
+STEP 7 : PRINT output
+STEP 8 : END
+
+
+
