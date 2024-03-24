@@ -1,0 +1,29 @@
+****Multiplication by using bitwise Operator******
+
+#include <stdio.h>
+#include <math.h>
+
+int multiplyTwoNumbers(int a, int b)
+{
+int result = 0;
+while (b > 0)
+{
+if (b & 1)
+{
+result += a;
+}
+a = a << 1;
+b = b >> 1;
+}
+return result;
+}
+
+int main(void) {
+    int x = 8; // First number for multiplication
+    int y = 9; // Second number for multiplication
+
+    // Print the Product of x and y calculated using bitwise operators
+    printf("Product of %d and %d using bitwise operators is: %d", x, y, multiplyTwoNumbers(x, y));
+
+    return 0;
+}
